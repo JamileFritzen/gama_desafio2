@@ -1,0 +1,63 @@
+.menu {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 20px;
+	overflow: hidden;
+	background-color: rgb(141, 141, 141);
+}
+
+h1{
+	color: rgb(250, 118, 123);
+	font-family: bello script;
+}
+
+
+.card-container {
+	margin-top: 60px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 95%;
+	justify-content: center;
+}
+
+.card {
+	width: 20%;
+	min-width: 20%;
+	height: 100%;
+	margin: 1.5rem;
+	cursor: pointer;
+	text-align:center;
+  }
+
+.card-container :hover {
+	height: 100%;
+	border-radius: 5%;
+	background-color: rgba(224, 224, 224, 0.5);
+}
+
+  .card-info {
+	padding: 7%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+  }
+
+  .card-img {
+	margin-top: 10px;
+	width: 90%;
+	height: 50%;
+	border-radius: 12px;
+	padding: 1.5%;
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	align-self: center;
+}
+
+  .house-name {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Impact;
+	padding: 2%;
+  }
